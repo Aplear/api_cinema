@@ -30,6 +30,14 @@ class BookingQuery extends ActiveQuery
     }
 
     /**
+     * @return $this
+     */
+    public function currentUser()
+    {
+        return $this->andWhere([Booking::tableName() . '.user_id' => \Yii::$app->user->id]);
+    }
+
+    /**
      * @param $id
      * @return BookingQuery
      */

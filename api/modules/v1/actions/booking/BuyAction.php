@@ -23,12 +23,16 @@ class BuyAction extends Action
         if (Yii::$app->request->isPut) {
             $bookingId = Yii::$app->request->get('id');
             $booking = Booking::find()
-                ->isBooked()
+                ->currentUser()
                 ->byId($bookingId)
                 ->one();
 
             if (is_null($booking)) {
                 throw new NotFoundHttpException('Bad booking.');
+            }
+
+            if ($booking->status == Booking::STATUS_BUYED) {
+                throw new NotFoundHttpException('You has already paid.');
             }
 
             $booking->status = Booking::STATUS_BUYED;
