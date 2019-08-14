@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d71d6d0-530d-41de-ad04-7c48ac5c81df" name="Default" comment="" />
+    <list default="true" id="2d71d6d0-530d-41de-ad04-7c48ac5c81df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii2advanced_2019-08-14.sql" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -382,11 +384,11 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/common/components/rbac/rules" />
       <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/common/models" />
       <recent name="$PROJECT_DIR$/vagrant/nginx/log" />
-      <recent name="$PROJECT_DIR$/api/modules/v1/actions/auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,12 +414,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565621856589</updated>
       <workItem from="1565621858031" duration="2791000" />
-      <workItem from="1565690904984" duration="48058000" />
+      <workItem from="1565690904984" duration="48245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50849000" />
+    <option name="totallyTimeSpent" value="51036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1152" height="697" extended-state="6" />
