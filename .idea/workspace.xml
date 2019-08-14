@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d71d6d0-530d-41de-ad04-7c48ac5c81df" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findCurrentToken</find>
+      <find>rest\components\api</find>
+      <find>api\components\\</find>
+      <find>api\components\</find>
+      <find>searchService</find>
+      <find>debu</find>
+      <find>init</find>
+      <find>dri</find>
+      <find>driver</find>
+      <find>findIdentityByAccessToken</find>
+      <find>driver_id</find>
+      <find>ActiveQuery</find>
+      <find>load</find>
+      <find>$cinemaHall</find>
+      <find>permissions</find>
+      <find>$cinemaHallSeats</find>
+      <find>roleParams</find>
+      <find>cinema_hall_id</find>
+      <find>start_at</find>
+      <find>checkCinemaHallRow</find>
+      <find>status</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>api\components\</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/api</dir>
+      <dir>$PROJECT_DIR$/api/components</dir>
+      <dir>$PROJECT_DIR$/api/modules/v1/models</dir>
+      <dir>$PROJECT_DIR$/common/models</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/create.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/update.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/_form.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/index.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/update.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/create.php" />
+        <option value="$PROJECT_DIR$/backend/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" />
+        <option value="$PROJECT_DIR$/backend/config/main.php" />
+        <option value="$PROJECT_DIR$/common/config/main.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/CinemaHallSeatsController.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/CinemaHallRowsController.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/select.php" />
+        <option value="$PROJECT_DIR$/backend/web/js/cinema-hall-seats/form.js" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/_form.php" />
+        <option value="$PROJECT_DIR$/console/migrations/m190813_132820_create_cinema_hall_seats_table.php" />
+        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/index.php" />
+        <option value="$PROJECT_DIR$/common/models/CinemaHallSeats.php" />
+        <option value="$PROJECT_DIR$/backend/views/films/create.php" />
+        <option value="$PROJECT_DIR$/backend/views/films/update.php" />
+        <option value="$PROJECT_DIR$/backend/views/films/_form.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/FilmsController.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/FilmController.php" />
+        <option value="$PROJECT_DIR$/common/models/Films.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/films/ViewAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/CinemaHallRows.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/CinemaHallSeats.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/CinemaHall.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/Films.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/booking/OptionsAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/BookingController.php" />
+        <option value="$PROJECT_DIR$/api/config/main.php" />
+        <option value="$PROJECT_DIR$/common/models/queries/FilmsQuery.php" />
+        <option value="$PROJECT_DIR$/common/models/CinemaHall.php" />
+        <option value="$PROJECT_DIR$/common/models/Booking.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/Booking.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/booking/CreateAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/OptionsAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallController.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/ViewAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallRowsController.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/OptionsAction.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/ViewAction.php" />
+        <option value="$PROJECT_DIR$/common/models/queries/CinemaHallQuery.php" />
+        <option value="$PROJECT_DIR$/common/models/queries/CinemaHallRowsQuery.php" />
+        <option value="$PROJECT_DIR$/common/models/CinemaHallRows.php" />
+        <option value="$PROJECT_DIR$/common/models/queries/BookingQuery.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="api.kino.loc" id="dec4acfa-04f6-4163-b175-197b437ececf" name="api.kino.loc" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/api/web" remote-root="/app/api/web" />
+        </path_mappings>
+      </server>
+      <server host="admin.kino.loc" id="ba40acd4-9136-42ca-b75f-b7cb510b56d9" name="admin.kino.loc" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/environments/dev/backend/web" remote-root="/app/backend/web" />
+        </path_mappings>
+      </server>
+      <server host="kino.loc" id="c34febcd-22df-403c-9ec3-13dca73aaced" name="kino.loc" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AngularJS</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DocBlocksJoomla!</id>
+          </State>
+          <State>
+            <id>Dockerfile issues</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Ini Files</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Joomla!</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsPHP</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHP Strict StandardsPHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Phing</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Replaceable assignmentsPHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>docker-compose</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHall" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/booking" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/models" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/components/rbac/rules" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/common/models" />
+      <recent name="$PROJECT_DIR$/vagrant/nginx/log" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/auth" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d71d6d0-530d-41de-ad04-7c48ac5c81df" name="Default" comment="" />
+      <created>1565621856589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565621856589</updated>
+      <workItem from="1565621858031" duration="2791000" />
+      <workItem from="1565690904984" duration="48058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50849000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1152" height="697" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27657658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1918919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/web/js/cinema-hall-seats/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="e#54#57#0#PHP" expanded="true" />
+            <element signature="e#70#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#47#0#PHP" expanded="true" />
+            <element signature="e#284#3307#0#PHP" expanded="true" />
+            <element signature="e#373#624#0#PHP" expanded="true" />
+            <element signature="e#703#1011#0#PHP" expanded="true" />
+            <element signature="e#1189#1329#0#PHP" expanded="true" />
+            <element signature="e#1496#1809#0#PHP" expanded="true" />
+            <element signature="e#2072#2393#0#PHP" expanded="true" />
+            <element signature="e#2659#2789#0#PHP" expanded="true" />
+            <element signature="e#3083#3305#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallSeatsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#68#0#PHP" expanded="true" />
+            <element signature="e#1168#1481#0#PHP" expanded="true" />
+            <element signature="e#1976#2383#0#PHP" expanded="true" />
+            <element signature="e#2651#3061#0#PHP" expanded="true" />
+            <element signature="e#3332#3462#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/CinemaHallSeats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="e#427#509#0#PHP" expanded="true" />
+            <element signature="e#1237#1472#0#PHP" expanded="true" />
+            <element signature="e#1529#1656#0#PHP" expanded="true" />
+            <element signature="e#1713#1839#0#PHP" expanded="true" />
+            <element signature="e#1896#2033#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#7#28#0#PHP" expanded="true" />
+            <element signature="e#299#304#0#PHP" expanded="true" />
+            <element signature="e#342#345#0#PHP" expanded="true" />
+            <element signature="e#398#401#0#PHP" expanded="true" />
+            <element signature="e#684#689#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#333#336#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/films/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#405#408#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/films/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#291#294#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallRowsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="39" />
+          <folding>
+            <element signature="e#39#47#0#PHP" expanded="true" />
+            <element signature="e#503#972#0#PHP" expanded="true" />
+            <element signature="e#1055#1367#0#PHP" expanded="true" />
+            <element signature="e#1549#1689#0#PHP" expanded="true" />
+            <element signature="e#1860#2266#0#PHP" expanded="true" />
+            <element signature="e#3213#3343#0#PHP" expanded="true" />
+            <element signature="e#3387#3789#0#PHP" expanded="true" />
+            <element signature="e#4091#4317#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="381" column="20" lean-forward="false" selection-start-line="381" selection-start-column="20" selection-end-line="381" selection-end-column="20" />
+          <folding>
+            <element signature="e#14174#14992#0#PHP" expanded="true" />
+            <element signature="e#15476#15649#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/FilmsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#294#3702#0#PHP" expanded="true" />
+            <element signature="e#378#629#0#PHP" expanded="true" />
+            <element signature="e#703#1006#0#PHP" expanded="true" />
+            <element signature="e#1179#1319#0#PHP" expanded="true" />
+            <element signature="e#1481#2008#0#PHP" expanded="true" />
+            <element signature="e#2266#2808#0#PHP" expanded="true" />
+            <element signature="e#3069#3199#0#PHP" expanded="true" />
+            <element signature="e#3483#3700#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/films/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#7#42#0#PHP" expanded="true" />
+            <element signature="e#265#270#0#PHP" expanded="true" />
+            <element signature="e#436#439#0#PHP" expanded="true" />
+            <element signature="e#607#610#0#PHP" expanded="true" />
+            <element signature="e#683#686#0#PHP" expanded="true" />
+            <element signature="e#735#738#0#PHP" expanded="true" />
+            <element signature="e#1169#1172#0#PHP" expanded="true" />
+            <element signature="e#1288#1291#0#PHP" expanded="true" />
+            <element signature="e#1370#1375#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-seats/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#35#0#PHP" expanded="true" />
+            <element signature="e#272#277#0#PHP" expanded="true" />
+            <element signature="e#315#318#0#PHP" expanded="true" />
+            <element signature="e#371#374#0#PHP" expanded="true" />
+            <element signature="e#680#683#0#PHP" expanded="true" />
+            <element signature="e#890#895#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/BookingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1443">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#47#0#PHP" expanded="true" />
+            <element signature="e#272#3262#0#PHP" expanded="true" />
+            <element signature="e#358#609#0#PHP" expanded="true" />
+            <element signature="e#685#990#0#PHP" expanded="true" />
+            <element signature="e#1165#1305#0#PHP" expanded="true" />
+            <element signature="e#1469#1779#0#PHP" expanded="true" />
+            <element signature="e#2039#2360#0#PHP" expanded="true" />
+            <element signature="e#2623#2753#0#PHP" expanded="true" />
+            <element signature="e#3041#3260#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/booking/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#7#28#0#PHP" expanded="true" />
+            <element signature="e#204#209#0#PHP" expanded="true" />
+            <element signature="e#247#250#0#PHP" expanded="true" />
+            <element signature="e#304#307#0#PHP" expanded="true" />
+            <element signature="e#361#364#0#PHP" expanded="true" />
+            <element signature="e#425#428#0#PHP" expanded="true" />
+            <element signature="e#493#496#0#PHP" expanded="true" />
+            <element signature="e#562#565#0#PHP" expanded="true" />
+            <element signature="e#617#620#0#PHP" expanded="true" />
+            <element signature="e#673#676#0#PHP" expanded="true" />
+            <element signature="e#733#736#0#PHP" expanded="true" />
+            <element signature="e#826#829#0#PHP" expanded="true" />
+            <element signature="e#908#913#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/rbac/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/rbac/items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHallSeats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#145#248#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/OptionsAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="e#132#329#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/CinemaHall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#75#0#PHP" expanded="true" />
+            <element signature="e#444#520#0#PHP" expanded="true" />
+            <element signature="e#563#675#0#PHP" expanded="true" />
+            <element signature="e#718#849#0#PHP" expanded="true" />
+            <element signature="e#906#1028#0#PHP" expanded="true" />
+            <element signature="e#1085#1220#0#PHP" expanded="true" />
+            <element signature="e#1277#1414#0#PHP" expanded="true" />
+            <element signature="e#1471#1588#0#PHP" expanded="true" />
+            <element signature="e#1641#1738#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Films.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1308">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#33#70#0#PHP" expanded="true" />
+            <element signature="e#513#4441#0#PHP" expanded="true" />
+            <element signature="e#756#936#0#PHP" expanded="true" />
+            <element signature="e#977#1141#0#PHP" expanded="true" />
+            <element signature="e#1184#1254#0#PHP" expanded="true" />
+            <element signature="e#1297#2118#0#PHP" expanded="true" />
+            <element signature="e#2161#2562#0#PHP" expanded="true" />
+            <element signature="e#2604#2827#0#PHP" expanded="true" />
+            <element signature="e#3058#3150#0#PHP" expanded="true" />
+            <element signature="e#3209#3363#0#PHP" expanded="true" />
+            <element signature="e#3405#4439#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/BookingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#95#0#PHP" expanded="true" />
+            <element signature="e#316#771#0#PHP" expanded="true" />
+            <element signature="e#812#1140#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/FilmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#92#0#PHP" expanded="true" />
+            <element signature="e#261#811#0#PHP" expanded="true" />
+            <element signature="e#1134#1269#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/controllers/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="e#38#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/OptionsAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#135#332#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/Films.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#392#959#0#PHP" expanded="true" />
+            <element signature="e#439#857#0#PHP" expanded="true" />
+            <element signature="e#579#683#2#PHP" expanded="true" />
+            <element signature="e#732#818#2#PHP" expanded="true" />
+            <element signature="e#863#957#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/films/ViewAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#48#80#0#PHP" expanded="true" />
+            <element signature="e#132#348#0#PHP" expanded="true" />
+            <element signature="e#252#346#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/ViewAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#53#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#320#659#0#PHP" expanded="true" />
+            <element signature="e#414#516#0#PHP" expanded="true" />
+            <element signature="e#559#657#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/OptionsAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <element signature="e#139#336#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/queries/CinemaHallQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#128#355#0#PHP" expanded="true" />
+            <element signature="e#242#353#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/queries/CinemaHallRowsQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#136#375#0#PHP" expanded="true" />
+            <element signature="e#258#373#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/queries/FilmsQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#64#0#PHP" expanded="true" />
+            <element signature="e#203#411#0#PHP" expanded="true" />
+            <element signature="e#477#583#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallRowsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#198#1307#0#PHP" expanded="true" />
+            <element signature="e#290#847#0#PHP" expanded="true" />
+            <element signature="e#888#1129#0#PHP" expanded="true" />
+            <element signature="e#1170#1305#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#46#98#0#PHP" expanded="true" />
+            <element signature="e#876#1117#0#PHP" expanded="true" />
+            <element signature="e#1158#1293#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHallRows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#51#414#0#PHP" expanded="true" />
+            <element signature="e#153#263#0#PHP" expanded="true" />
+            <element signature="e#306#412#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/ViewAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#57#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/CinemaHallRows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+            <element signature="e#765#837#0#PHP" expanded="true" />
+            <element signature="e#878#983#0#PHP" expanded="true" />
+            <element signature="e#2030#2504#0#PHP" expanded="true" />
+            <element signature="e#2561#2687#0#PHP" expanded="true" />
+            <element signature="e#2744#2881#0#PHP" expanded="true" />
+            <element signature="e#2938#3078#0#PHP" expanded="true" />
+            <element signature="e#3135#3242#0#PHP" expanded="true" />
+            <element signature="e#3292#3386#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#51#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/queries/BookingQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+            <element signature="e#209#491#0#PHP" expanded="true" />
+            <element signature="e#534#666#0#PHP" expanded="true" />
+            <element signature="e#734#842#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/CreateAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#84#0#PHP" expanded="true" />
+            <element signature="e#483#2529#0#PHP" expanded="true" />
+            <element signature="e#2602#3737#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/FUNDING.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

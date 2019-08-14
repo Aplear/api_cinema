@@ -1,0 +1,68 @@
+# PHP error handling for development servers
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_flag log_errors on
+php_flag ignore_repeated_errors off
+php_flag ignore_repeated_source off
+php_flag report_memleaks on
+php_flag track_errors on
+php_value docref_root 0
+php_value docref_ext 0
+php_value error_reporting -1
+php_value log_errors_max_len 0
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    # deal with admin first
+    RewriteCond %{REQUEST_URI} ^/(admin)
+    RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
+    RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
+    RewriteRule ^admin/js/(.*)$ backend/web/js/$1 [L]
+    RewriteRule ^admin/img/(.*)$ backend/web/img/$1 [L]
+    RewriteRule ^admin/uploads/(.*)$ backend/web/uploads/$1 [L]
+    RewriteRule ^admin/downloads/(.*)$ backend/web/downloads/$1 [L]
+    RewriteRule ^admin/signatures/(.*)$ backend/web/signatures/$1 [L]
+    RewriteRule ^admin/signature_generator/(.*)$ backend/web/signature_generator/$1 [L]
+    RewriteRule ^admin/ptvgroup/(.*)$ backend/web/ptvgroup/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/backend/web/(assets|css|js)/
+    RewriteCond %{REQUEST_URI} ^/(admin)
+    RewriteRule ^.*$ backend/web/index.php [L]
+
+
+    #api
+    RewriteCond %{REQUEST_URI} ^/(api)
+    RewriteRule ^api/uploads/(.*)$ api/web/uploads/$1 [L]
+
+    RewriteCond %{REQUEST_URI} ^/(api)
+    RewriteRule ^.*$ api/web/index.php [L]
+
+    RewriteCond %{REQUEST_URI} ^/(assets|css|js|images)
+    RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+    RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
+    RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
+    RewriteRule ^images/(.*)$ frontend/web/images/$1 [L]
+    RewriteRule ^img/(.*)$ frontend/web/img/$1 [L]
+    RewriteRule ^ptvgroup/(.*)$ frontend/web/ptvgroup/$1 [L]
+    RewriteRule ^(.*)$ frontend/web/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/(frontend|backend)/web/(assets|css|js)/
+    RewriteCond %{REQUEST_URI} !index.php
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ frontend/web/index.php
+</IfModule>
+
+# Deny accessing below extensions
+<Files ~ "(.json|.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
