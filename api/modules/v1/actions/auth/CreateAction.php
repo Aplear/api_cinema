@@ -16,6 +16,9 @@ class CreateAction extends Action
     /**
      * Create access token
      *
+     * @api {post} /auth/login
+     * @apiParam {String} username  User username field.
+     * @apiParam {String} password  User password field.
      */
     public function run()
     {
@@ -23,6 +26,7 @@ class CreateAction extends Action
         $model->load(Yii::$app->request->bodyParams, '');
 
         if($token = $model->auth()) {
+            Yii::$app->response->setStatusCode(201);
             return $token;
         } else {
             return [

@@ -29,6 +29,7 @@ return [
         'user' => [
             'identityClass' => User::class,
             'enableSession' => false,
+            'enableAutoLogin' => false,
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

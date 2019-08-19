@@ -7,19 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInitecb61d2ca3dded77d152e004bc117a27
 {
     public static $files = array (
+        '721ab056c755b8b5b6ebfabbd5c31779' => __DIR__ . '/..' . '/hoa/consistency/Source/Prelude.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '04ec8bb54be1ccb3c8de870df2068865' => __DIR__ . '/..' . '/hoa/protocol/Source/Wrapper.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
-        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -86,9 +90,31 @@ class ComposerStaticInitecb61d2ca3dded77d152e004bc117a27
         array (
             'Opis\\Closure\\' => 13,
         ),
+        'H' => 
+        array (
+            'Hoa\\Ustring\\Bin\\' => 16,
+            'Hoa\\Ustring\\' => 12,
+            'Hoa\\Stream\\Test\\' => 16,
+            'Hoa\\Stream\\' => 11,
+            'Hoa\\Protocol\\Test\\' => 18,
+            'Hoa\\Protocol\\Bin\\' => 17,
+            'Hoa\\Protocol\\' => 13,
+            'Hoa\\Iterator\\Test\\' => 18,
+            'Hoa\\Iterator\\' => 13,
+            'Hoa\\File\\' => 9,
+            'Hoa\\Exception\\' => 14,
+            'Hoa\\Event\\' => 10,
+            'Hoa\\Console\\Test\\' => 17,
+            'Hoa\\Console\\Bin\\' => 16,
+            'Hoa\\Console\\' => 12,
+            'Hoa\\Consistency\\Test\\' => 21,
+            'Hoa\\Consistency\\' => 16,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'F' => 
         array (
@@ -247,9 +273,85 @@ class ComposerStaticInitecb61d2ca3dded77d152e004bc117a27
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
         ),
+        'Hoa\\Ustring\\Bin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/ustring/Bin',
+        ),
+        'Hoa\\Ustring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/ustring/Source',
+        ),
+        'Hoa\\Stream\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/stream/Test',
+        ),
+        'Hoa\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/stream/Source',
+        ),
+        'Hoa\\Protocol\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/protocol/Test',
+        ),
+        'Hoa\\Protocol\\Bin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/protocol/Bin',
+        ),
+        'Hoa\\Protocol\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/protocol/Source',
+        ),
+        'Hoa\\Iterator\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/iterator/Test',
+        ),
+        'Hoa\\Iterator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/iterator/Source',
+        ),
+        'Hoa\\File\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/file/Source',
+        ),
+        'Hoa\\Exception\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/exception/Source',
+        ),
+        'Hoa\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/event/Source',
+        ),
+        'Hoa\\Console\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/console/Test',
+        ),
+        'Hoa\\Console\\Bin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/console/Bin',
+        ),
+        'Hoa\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/console/Source',
+        ),
+        'Hoa\\Consistency\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/consistency/Test',
+        ),
+        'Hoa\\Consistency\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/consistency/Source',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
         'Faker\\' => 
         array (
@@ -300,6 +402,17 @@ class ComposerStaticInitecb61d2ca3dded77d152e004bc117a27
             'HTMLPurifier' => 
             array (
                 0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
+            ),
+        ),
+        'F' => 
+        array (
+            'Flow\\JSONPath\\Test' => 
+            array (
+                0 => __DIR__ . '/..' . '/flow/jsonpath/tests',
+            ),
+            'Flow\\JSONPath' => 
+            array (
+                0 => __DIR__ . '/..' . '/flow/jsonpath/src',
             ),
         ),
         'D' => 

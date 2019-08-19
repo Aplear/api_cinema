@@ -1,0 +1,10 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            depends: PhpBrowser
+            url: 'http://api.kino.loc/api/v1'
+            part: [json]
+        - Yii2:
+          part: [orm, fixtures]
+          entryScript: index-test.php

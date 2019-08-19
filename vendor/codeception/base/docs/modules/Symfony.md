@@ -135,7 +135,7 @@ Use it in Helpers when you want to retrieve response of request performed by ano
 // in Helper class
 public function seeResponseContains($text)
 {
-   $this->assertContains($text, $this->getModule('Symfony')->_getResponseContent(), "response contains");
+   $this->assertStringContainsString($text, $this->getModule('Symfony')->_getResponseContent(), "response contains");
 }
 ?>
 ```
@@ -688,22 +688,6 @@ $em = $I->grabService('doctrine');
  * `[Part]` services
 
 
-### grabServiceFromContainer
- 
-Grabs a service from Symfony DIC container.
-Recommended to use for unit testing.
-
-``` php
-<?php
-$em = $I->grabServiceFromContainer('doctrine');
-?>
-```
-
- * `param` $service
- * `[Part]` services
-@deprecated Use grabService instead
-
-
 ### grabTextFrom
  
 Finds and returns the text contents of the given element.
@@ -761,6 +745,22 @@ $I->haveHttpHeader('Client&#95;Id', 'Codeception');
 ### invalidateCachedRouter
  
 Invalidate previously cached routes.
+
+
+### makeHtmlSnapshot
+ 
+Saves current page's HTML into a temprary file.
+Use this method in debug mode within an interactive pause to get a source code of current page.
+
+```php
+<?php
+$I->makePageSnapshot('edit_page');
+// saved to: tests/_output/debug/edit_page.html
+$I->makePageSnapshot();
+// saved to: tests/_output/debug/2017-05-26_14-24-11_4b3403665fea6.html
+```
+
+ * `param null` $name
 
 
 ### moveBack
@@ -1503,4 +1503,4 @@ Remove service $serviceName from the lists of persistent services.
 
  * `param string` $serviceName
 
-<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/2.5/src/Codeception/Module/Symfony.php">Help us to improve documentation. Edit module reference</a></div>
+<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/3.0/src/Codeception/Module/Symfony.php">Help us to improve documentation. Edit module reference</a></div>

@@ -1133,6 +1133,22 @@ See [saveSessionSnapshot](#saveSessionSnapshot)
  * `param` $name
 
 
+### makeHtmlSnapshot
+ 
+Saves current page's HTML into a temprary file.
+Use this method in debug mode within an interactive pause to get a source code of current page.
+
+```php
+<?php
+$I->makePageSnapshot('edit_page');
+// saved to: tests/_output/debug/edit_page.html
+$I->makePageSnapshot();
+// saved to: tests/_output/debug/2017-05-26_14-24-11_4b3403665fea6.html
+```
+
+ * `param null` $name
+
+
 ### makeScreenshot
  
 Takes a screenshot of the current window and saves it to `tests/_output/debug`.
@@ -1200,15 +1216,6 @@ Please note, that adblock can restrict creating such tabs.
 
 Can't be used with PhantomJS
 
-
-
-### pauseExecution
- 
-Pauses test execution in debug mode.
-To proceed test press "ENTER" in console.
-
-This method is useful while writing tests,
-since it allows you to inspect the current page in the middle of a test case.
 
 
 ### performOn
@@ -1829,16 +1836,16 @@ $I->submitForm('#my-form', [
      'field1' => 'value',
      'checkbox' => [
          'value of first checkbox',
-         'value of second checkbox,
+         'value of second checkbox',
      ],
      'otherCheckboxes' => [
          true,
          false,
-         false
+         false,
      ],
      'multiselect' => [
          'first option value',
-         'second option value'
+         'second option value',
      ]
 ]);
 ?>
@@ -2150,4 +2157,4 @@ $I->waitForText('foo', 30, '.title'); // secs
  * `param string` $selector optional
 @throws \Exception
 
-<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/2.5/src/Codeception/Module/WebDriver.php">Help us to improve documentation. Edit module reference</a></div>
+<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/3.0/src/Codeception/Module/WebDriver.php">Help us to improve documentation. Edit module reference</a></div>

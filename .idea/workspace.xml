@@ -2,9 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d71d6d0-530d-41de-ad04-7c48ac5c81df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii2advanced_2019-08-14.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php" afterPath="$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/queries/BookingQuery.php" afterPath="$PROJECT_DIR$/common/models/queries/BookingQuery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/tests/_data/token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/tests/api/AuthCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/fixtures/TokenFixture.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/_support/FunctionalTester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/_support/UnitTester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/acceptance.suite.yml.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/acceptance/HomeCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/acceptance/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/AboutCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/ContactCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/HomeCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/LoginCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/ResendVerificationEmailCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/SignupCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/VerifyEmailCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/functional/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/ContactFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/PasswordResetRequestFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/ResendVerificationEmailFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/ResetPasswordFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/SignupFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/tests/unit/models/VerifyEmailFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/AngularJS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Facebook.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Silex.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/XMLRPC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Yii1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/ZF1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Exception/Fail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Exception/Incomplete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Exception/Skip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Connector/Guzzle6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Connector/ZF1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/AngularJS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Silex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/XMLRPC.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Yii1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/ZF1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/PropertyAccess.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/angular.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/angular/AngularCest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/hhvm-server.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/facebook.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/facebook/FacebookTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/support/FacebookGuy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_steps/RootWatcherSteps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/codeception/base/wercker.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console" afterPath="$PROJECT_DIR$/vendor/symfony/console" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder" afterPath="$PROJECT_DIR$/vendor/symfony/finder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/service-contracts" afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml" afterPath="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/kino/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/kino/virtualbox/action_set_name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/codeception.yml" afterPath="$PROJECT_DIR$/api/codeception.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/config/bootstrap.php" afterPath="$PROJECT_DIR$/api/config/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/config/main.php" afterPath="$PROJECT_DIR$/api/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/modules/v1/actions/auth/CreateAction.php" afterPath="$PROJECT_DIR$/api/modules/v1/actions/auth/CreateAction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/modules/v1/models/LoginForm.php" afterPath="$PROJECT_DIR$/api/modules/v1/models/LoginForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/tests/_data/login_data.php" afterPath="$PROJECT_DIR$/api/tests/_data/login_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/tests/_data/user.php" afterPath="$PROJECT_DIR$/api/tests/_data/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeception.yml" afterPath="$PROJECT_DIR$/codeception.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/fixtures/UserFixture.php" afterPath="$PROJECT_DIR$/common/fixtures/UserFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant/nginx/log/api-access.log" afterPath="$PROJECT_DIR$/vagrant/nginx/log/api-access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant/nginx/log/api-error.log" afterPath="$PROJECT_DIR$/vagrant/nginx/log/api-error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/.travis.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/Dockerfile" afterPath="$PROJECT_DIR$/vendor/codeception/base/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/PruneTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/PruneTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/RoboFile.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/RoboFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/codeception.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/codeception.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/composer.json" afterPath="$PROJECT_DIR$/vendor/codeception/base/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/02-GettingStarted.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/02-GettingStarted.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/03-AcceptanceTests.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/03-AcceptanceTests.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/04-FunctionalTests.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/04-FunctionalTests.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/07-AdvancedUsage.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/07-AdvancedUsage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/07-BDD.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/07-BDD.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/08-Customization.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/08-Customization.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/09-Data.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/09-Data.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/AMQP.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/AMQP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Apc.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Apc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Asserts.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Asserts.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Cli.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Cli.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/DataFactory.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/DataFactory.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Db.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Db.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Doctrine2.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Doctrine2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/FTP.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/FTP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Filesystem.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Filesystem.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Laravel5.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Laravel5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Lumen.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Lumen.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Memcache.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Memcache.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/MongoDb.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/MongoDb.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Phalcon.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Phalcon.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/PhpBrowser.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/PhpBrowser.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Queue.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Queue.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/REST.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/REST.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Redis.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Redis.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/SOAP.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/SOAP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Sequence.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Sequence.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Symfony.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Symfony.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/WebDriver.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/WebDriver.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Yii2.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/Yii2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/ZF2.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/ZF2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/ZendExpressive.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/modules/ZendExpressive.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Autoload.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Autoload.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Fixtures.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Fixtures.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/HttpCode.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/HttpCode.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/InitTemplate.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/InitTemplate.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/JsonType.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/JsonType.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Locator.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Locator.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Module.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/Module.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/XmlBuilder.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/docs/reference/XmlBuilder.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/ext/README.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/ext/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/ext/Recorder.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/ext/Recorder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Actor.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Actor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Application.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Codecept.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Codecept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Command/Console.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Command/Console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Command/Run.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Command/Run.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Configuration.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Exception/ElementNotFound.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Exception/ElementNotFound.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Connector/Guzzle.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Connector/Guzzle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/DbPopulator.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/DbPopulator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/PostgreSql.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/PostgreSql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Generator/Actions.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Generator/Actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Generator/GherkinSnippets.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Generator/GherkinSnippets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/InnerBrowser.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/InnerBrowser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Interfaces/PageSourceSaver.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Interfaces/PageSourceSaver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/AMQP.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/AMQP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Asserts.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Asserts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Doctrine2.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Doctrine2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Laravel5.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Laravel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Phalcon.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Phalcon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/PhpBrowser.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/PhpBrowser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/REST.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/REST.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/SOAP.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/SOAP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Symfony.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Symfony.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/WebDriver.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/WebDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Yii2.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/Yii2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/ZendExpressive.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Module/ZendExpressive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Step/ConditionalAssertion.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Step/ConditionalAssertion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/Console.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/Console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Acceptance.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Acceptance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Bootstrap.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Unit.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Unit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Test.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Unit.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Unit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Autoload.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Debug.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Shared/Asserts.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Shared/Asserts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Template.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/README.md" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli.suite.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/IncludedCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/IncludedCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/SecondTestIsExecutedWhenTheFirstTestFailsCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/SecondTestIsExecutedWhenTheFirstTestFailsCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button-not-in-form.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button-not-in-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OtherGuy.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OtherGuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order.suite.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/CodeTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/CodeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote.suite.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario.suite.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/snapshots/tests/_support/_generated/DataTesterActions.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/snapshots/tests/_support/_generated/DataTesterActions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/support/WebGuy.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/WebGuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/C3Test.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/C3Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ApplicationTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BaseCommandRunner.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BaseCommandRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BuildTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BuildTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateCeptTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateCeptTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateCestTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateCestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateEnvironmentTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateEnvironmentTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateGroupTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateGroupTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GeneratePageObjectTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GeneratePageObjectTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateScenarioTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateScenarioTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateStepObjectTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateStepObjectTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateSuiteTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateSuiteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateTestTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/GenerateTestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/MyCustomCommandTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/MyCustomCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/SelfUpdateTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/SelfUpdateTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ConfigurationTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/CrawlerConstraintTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/CrawlerConstraintTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/CrawlerNotConstraintTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/CrawlerNotConstraintTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/WebDriverConstraintTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/WebDriverConstraintTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/WebDriverNotConstraintTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Constraints/WebDriverNotConstraintTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Console/ColorizerTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Console/ColorizerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Console/DiffFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Console/DiffFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/DiTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/DiTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/MysqlTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/MysqlTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/PostgresTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/PostgresTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/SqliteTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/Driver/SqliteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/ModuleContainerTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/ModuleContainerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Lib/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/AMQPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/AMQPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/AssertsTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/AssertsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/BeanstalkdTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/BeanstalkdTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/MySqlDbTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/MySqlDbTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/PostgreSqlDbTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/PostgreSqlDbTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/SqliteDbTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/SqliteDbTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/TestsForDb.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/Db/TestsForDb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FTPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FTPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FilesystemTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FilesystemTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FrameworksTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/FrameworksTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/MongoDbLegacyTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/MongoDbLegacyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/MongoDbTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/MongoDbTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/PhpBrowserRestTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/PhpBrowserRestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/PhpBrowserTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/PhpBrowserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/RedisTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/RedisTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/RestTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/RestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/SFTPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/SFTPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/SoapTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/SoapTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/TestsForBrowsers.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/TestsForBrowsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/TestsForWeb.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Module/TestsForWeb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ModuleTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ModuleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/SuiteManagerTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/SuiteManagerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Test/GherkinTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Test/GherkinTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/TestLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/TestLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/AutoloadTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/AutoloadTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/JsonArrayTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/JsonArrayTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/JsonTypeTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/JsonTypeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/StubTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Util/StubTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/web.suite.yml" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/web/FriendWithStepsCept.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/FriendWithStepsCept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/web/WebDriverTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/WebDriverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_bootstrap.php" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +269,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuyAction.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="e#50#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +324,12 @@
       <find>start_at</find>
       <find>checkCinemaHallRow</find>
       <find>status</find>
+      <find>api</find>
+      <find>AcceptanceTester</find>
+      <find>ApiTester</find>
+      <find>cantSee</find>
+      <find>canSeeResponseCodeIs</find>
+      <find>request</find>
     </findStrings>
     <replaceStrings>
       <replace>api\components\</replace>
@@ -72,6 +339,8 @@
       <dir>$PROJECT_DIR$/api/components</dir>
       <dir>$PROJECT_DIR$/api/modules/v1/models</dir>
       <dir>$PROJECT_DIR$/common/models</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -80,33 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/create.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/update.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/_form.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/index.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/update.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/create.php" />
-        <option value="$PROJECT_DIR$/backend/assets/AppAsset.php" />
-        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php" />
-        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php" />
-        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" />
-        <option value="$PROJECT_DIR$/backend/config/main.php" />
-        <option value="$PROJECT_DIR$/common/config/main.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/CinemaHallSeatsController.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/CinemaHallRowsController.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-rows/select.php" />
-        <option value="$PROJECT_DIR$/backend/web/js/cinema-hall-seats/form.js" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/_form.php" />
-        <option value="$PROJECT_DIR$/console/migrations/m190813_132820_create_cinema_hall_seats_table.php" />
-        <option value="$PROJECT_DIR$/backend/views/cinema-hall-seats/index.php" />
-        <option value="$PROJECT_DIR$/common/models/CinemaHallSeats.php" />
-        <option value="$PROJECT_DIR$/backend/views/films/create.php" />
-        <option value="$PROJECT_DIR$/backend/views/films/update.php" />
-        <option value="$PROJECT_DIR$/backend/views/films/_form.php" />
-        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/FilmsController.php" />
-        <option value="$PROJECT_DIR$/api/modules/v1/controllers/FilmController.php" />
-        <option value="$PROJECT_DIR$/common/models/Films.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/actions/films/ViewAction.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/models/CinemaHallRows.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/models/CinemaHallSeats.php" />
@@ -114,7 +356,6 @@
         <option value="$PROJECT_DIR$/api/modules/v1/models/Films.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/actions/booking/OptionsAction.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/controllers/BookingController.php" />
-        <option value="$PROJECT_DIR$/api/config/main.php" />
         <option value="$PROJECT_DIR$/common/models/queries/FilmsQuery.php" />
         <option value="$PROJECT_DIR$/common/models/CinemaHall.php" />
         <option value="$PROJECT_DIR$/common/models/Booking.php" />
@@ -131,6 +372,34 @@
         <option value="$PROJECT_DIR$/common/models/CinemaHallRows.php" />
         <option value="$PROJECT_DIR$/common/models/queries/BookingQuery.php" />
         <option value="$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php" />
+        <option value="$PROJECT_DIR$/apidoc.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/vendor/symfony/console/Terminal.php" />
+        <option value="$PROJECT_DIR$/api/tests/functional/LoginCest.php" />
+        <option value="$PROJECT_DIR$/api/config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/api/codeception.yml" />
+        <option value="$PROJECT_DIR$/api/api.suite.yml" />
+        <option value="$PROJECT_DIR$/api/tests/_data/login_data.php" />
+        <option value="$PROJECT_DIR$/api/tests/acceptance.suite.yml.example" />
+        <option value="$PROJECT_DIR$/api/tests/functional.suite.yml" />
+        <option value="$PROJECT_DIR$/api/tests/unit.suite.yml" />
+        <option value="$PROJECT_DIR$/api/tests/acceptance/HomeCest.php" />
+        <option value="$PROJECT_DIR$/api/tests/acceptance/AuthCest.php" />
+        <option value="$PROJECT_DIR$/api.suite.yml" />
+        <option value="$PROJECT_DIR$/api/tests/api/_bootstrap.php" />
+        <option value="$PROJECT_DIR$/api/config/main.php" />
+        <option value="$PROJECT_DIR$/api/modules/v1/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/common/fixtures/TokenFixture.php" />
+        <option value="$PROJECT_DIR$/api/tests/_data/token.php" />
+        <option value="$PROJECT_DIR$/codeception.yml" />
+        <option value="$PROJECT_DIR$/api/modules/v1/actions/auth/CreateAction.php" />
+        <option value="$PROJECT_DIR$/api/config/main-local.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" />
+        <option value="$PROJECT_DIR$/common/fixtures/UserFixture.php" />
+        <option value="$PROJECT_DIR$/api/tests/_data/user.php" />
+        <option value="$PROJECT_DIR$/api/tests/api.suite.yml" />
+        <option value="$PROJECT_DIR$/api/tests/api/AuthCest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -163,10 +432,10 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1152" />
+    <option name="height" value="655" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -355,6 +624,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -377,60 +647,12 @@
               <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="actions" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="actions" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="booking" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.kino.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.kino.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="docs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,19 +661,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows" />
-      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHall" />
-      <recent name="$PROJECT_DIR$/api/modules/v1/actions/booking" />
-      <recent name="$PROJECT_DIR$/api/modules/v1/models" />
-      <recent name="$PROJECT_DIR$/backend" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/common/components/rbac/rules" />
       <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/common/models" />
       <recent name="$PROJECT_DIR$/vagrant/nginx/log" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/tests/api" />
+      <recent name="$PROJECT_DIR$/api/tests" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/cinemaHall" />
+      <recent name="$PROJECT_DIR$/api/modules/v1/actions/booking" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,34 +699,38 @@
       <option name="presentableId" value="Default" />
       <updated>1565621856589</updated>
       <workItem from="1565621858031" duration="2791000" />
-      <workItem from="1565690904984" duration="48680000" />
+      <workItem from="1565690904984" duration="52094000" />
+      <workItem from="1566022130796" duration="740000" />
+      <workItem from="1566028425152" duration="8308000" />
+      <workItem from="1566120957836" duration="2584000" />
+      <workItem from="1566127420614" duration="2995000" />
+      <workItem from="1566145596982" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51471000" />
+    <option name="totallyTimeSpent" value="70088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1152" height="697" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1152" height="720" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27657658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32702702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -541,570 +767,316 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/web/js/cinema-hall-seats/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/select.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <element signature="e#54#57#0#PHP" expanded="true" />
-            <element signature="e#70#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallController.php">
+    <entry file="file://$PROJECT_DIR$/environments/prod/api/config/codeception-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#47#0#PHP" expanded="true" />
-            <element signature="e#284#3307#0#PHP" expanded="true" />
-            <element signature="e#373#624#0#PHP" expanded="true" />
-            <element signature="e#703#1011#0#PHP" expanded="true" />
-            <element signature="e#1189#1329#0#PHP" expanded="true" />
-            <element signature="e#1496#1809#0#PHP" expanded="true" />
-            <element signature="e#2072#2393#0#PHP" expanded="true" />
-            <element signature="e#2659#2789#0#PHP" expanded="true" />
-            <element signature="e#3083#3305#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallSeatsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#39#68#0#PHP" expanded="true" />
-            <element signature="e#1168#1481#0#PHP" expanded="true" />
-            <element signature="e#1976#2383#0#PHP" expanded="true" />
-            <element signature="e#2651#3061#0#PHP" expanded="true" />
-            <element signature="e#3332#3462#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/CinemaHallSeats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <element signature="e#427#509#0#PHP" expanded="true" />
-            <element signature="e#1237#1472#0#PHP" expanded="true" />
-            <element signature="e#1529#1656#0#PHP" expanded="true" />
-            <element signature="e#1713#1839#0#PHP" expanded="true" />
-            <element signature="e#1896#2033#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#7#28#0#PHP" expanded="true" />
-            <element signature="e#299#304#0#PHP" expanded="true" />
-            <element signature="e#342#345#0#PHP" expanded="true" />
-            <element signature="e#398#401#0#PHP" expanded="true" />
-            <element signature="e#684#689#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-rows/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#333#336#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/films/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#405#408#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/films/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#291#294#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/CinemaHallRowsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="39" />
-          <folding>
-            <element signature="e#39#47#0#PHP" expanded="true" />
-            <element signature="e#503#972#0#PHP" expanded="true" />
-            <element signature="e#1055#1367#0#PHP" expanded="true" />
-            <element signature="e#1549#1689#0#PHP" expanded="true" />
-            <element signature="e#1860#2266#0#PHP" expanded="true" />
-            <element signature="e#3213#3343#0#PHP" expanded="true" />
-            <element signature="e#3387#3789#0#PHP" expanded="true" />
-            <element signature="e#4091#4317#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="381" column="20" lean-forward="false" selection-start-line="381" selection-start-column="20" selection-end-line="381" selection-end-column="20" />
-          <folding>
-            <element signature="e#14174#14992#0#PHP" expanded="true" />
-            <element signature="e#15476#15649#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/FilmsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#294#3702#0#PHP" expanded="true" />
-            <element signature="e#378#629#0#PHP" expanded="true" />
-            <element signature="e#703#1006#0#PHP" expanded="true" />
-            <element signature="e#1179#1319#0#PHP" expanded="true" />
-            <element signature="e#1481#2008#0#PHP" expanded="true" />
-            <element signature="e#2266#2808#0#PHP" expanded="true" />
-            <element signature="e#3069#3199#0#PHP" expanded="true" />
-            <element signature="e#3483#3700#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/films/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#7#42#0#PHP" expanded="true" />
-            <element signature="e#265#270#0#PHP" expanded="true" />
-            <element signature="e#436#439#0#PHP" expanded="true" />
-            <element signature="e#607#610#0#PHP" expanded="true" />
-            <element signature="e#683#686#0#PHP" expanded="true" />
-            <element signature="e#735#738#0#PHP" expanded="true" />
-            <element signature="e#1169#1172#0#PHP" expanded="true" />
-            <element signature="e#1288#1291#0#PHP" expanded="true" />
-            <element signature="e#1370#1375#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/cinema-hall-seats/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#7#35#0#PHP" expanded="true" />
-            <element signature="e#272#277#0#PHP" expanded="true" />
-            <element signature="e#315#318#0#PHP" expanded="true" />
-            <element signature="e#371#374#0#PHP" expanded="true" />
-            <element signature="e#680#683#0#PHP" expanded="true" />
-            <element signature="e#890#895#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/BookingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1443">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#47#0#PHP" expanded="true" />
-            <element signature="e#272#3262#0#PHP" expanded="true" />
-            <element signature="e#358#609#0#PHP" expanded="true" />
-            <element signature="e#685#990#0#PHP" expanded="true" />
-            <element signature="e#1165#1305#0#PHP" expanded="true" />
-            <element signature="e#1469#1779#0#PHP" expanded="true" />
-            <element signature="e#2039#2360#0#PHP" expanded="true" />
-            <element signature="e#2623#2753#0#PHP" expanded="true" />
-            <element signature="e#3041#3260#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/booking/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#7#28#0#PHP" expanded="true" />
-            <element signature="e#204#209#0#PHP" expanded="true" />
-            <element signature="e#247#250#0#PHP" expanded="true" />
-            <element signature="e#304#307#0#PHP" expanded="true" />
-            <element signature="e#361#364#0#PHP" expanded="true" />
-            <element signature="e#425#428#0#PHP" expanded="true" />
-            <element signature="e#493#496#0#PHP" expanded="true" />
-            <element signature="e#562#565#0#PHP" expanded="true" />
-            <element signature="e#617#620#0#PHP" expanded="true" />
-            <element signature="e#673#676#0#PHP" expanded="true" />
-            <element signature="e#733#736#0#PHP" expanded="true" />
-            <element signature="e#826#829#0#PHP" expanded="true" />
-            <element signature="e#908#913#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/rbac/rules.php">
+    <entry file="file://$PROJECT_DIR$/environments/dev/api/config/codeception-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/rbac/items.php">
+    <entry file="file://$PROJECT_DIR$/api/config/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+    <entry file="file://$PROJECT_DIR$/api/api.suite.yml" />
+    <entry file="file://$PROJECT_DIR$/api/tests/_support/FunctionalTester.php" />
+    <entry file="file://$PROJECT_DIR$/api/tests/unit.suite.yml" />
+    <entry file="file://$PROJECT_DIR$/api/tests/functional/_bootstrap.php" />
+    <entry file="file://$PROJECT_DIR$/api/tests/acceptance/HomeCest.php" />
+    <entry file="file://$PROJECT_DIR$/api/tests/acceptance/AuthCest.php" />
+    <entry file="file://$PROJECT_DIR$/api.suite.yml" />
+    <entry file="file://$PROJECT_DIR$/api/tests/acceptance.suite.yml.example" />
+    <entry file="file://$PROJECT_DIR$/api/tests/functional.suite.yml" />
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/auth/OptionsAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHallSeats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#145#248#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/modules/v1/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/base/docs/10-WebServices.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="147" lean-forward="false" selection-start-line="4" selection-start-column="147" selection-end-line="4" selection-end-column="147" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests/_data/login_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/fixtures/TokenFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests/_support/ApiTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#484#615#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/auth/CreateAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests/api/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="79" column="6" lean-forward="false" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bin/codecept">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#135#177#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/OptionsAction.php">
+    <entry file="file://$PROJECT_DIR$/api/config/codeception-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#132#329#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/CinemaHall.php">
+    <entry file="file://$PROJECT_DIR$/api/config/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#75#0#PHP" expanded="true" />
-            <element signature="e#444#520#0#PHP" expanded="true" />
-            <element signature="e#563#675#0#PHP" expanded="true" />
-            <element signature="e#718#849#0#PHP" expanded="true" />
-            <element signature="e#906#1028#0#PHP" expanded="true" />
-            <element signature="e#1085#1220#0#PHP" expanded="true" />
-            <element signature="e#1277#1414#0#PHP" expanded="true" />
-            <element signature="e#1471#1588#0#PHP" expanded="true" />
-            <element signature="e#1641#1738#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/Films.php">
+    <entry file="file://$PROJECT_DIR$/api/config/test-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#33#70#0#PHP" expanded="true" />
-            <element signature="e#513#4441#0#PHP" expanded="true" />
-            <element signature="e#756#936#0#PHP" expanded="true" />
-            <element signature="e#977#1141#0#PHP" expanded="true" />
-            <element signature="e#1184#1254#0#PHP" expanded="true" />
-            <element signature="e#1297#2118#0#PHP" expanded="true" />
-            <element signature="e#2161#2562#0#PHP" expanded="true" />
-            <element signature="e#2604#2827#0#PHP" expanded="true" />
-            <element signature="e#3058#3150#0#PHP" expanded="true" />
-            <element signature="e#3209#3363#0#PHP" expanded="true" />
-            <element signature="e#3405#4439#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/BookingController.php">
+    <entry file="file://$PROJECT_DIR$/api/config/params.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#95#0#PHP" expanded="true" />
-            <element signature="e#316#771#0#PHP" expanded="true" />
-            <element signature="e#812#1140#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/FilmController.php">
+    <entry file="file://$PROJECT_DIR$/api/config/params-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#92#0#PHP" expanded="true" />
-            <element signature="e#261#811#0#PHP" expanded="true" />
-            <element signature="e#1134#1269#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/controllers/RbacController.php">
+    <entry file="file://$PROJECT_DIR$/api/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="e#38#80#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/OptionsAction.php">
+    <entry file="file://$PROJECT_DIR$/api/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="43" />
-          <folding>
-            <element signature="e#135#332#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/Films.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#392#959#0#PHP" expanded="true" />
-            <element signature="e#439#857#0#PHP" expanded="true" />
-            <element signature="e#579#683#2#PHP" expanded="true" />
-            <element signature="e#732#818#2#PHP" expanded="true" />
-            <element signature="e#863#957#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/films/ViewAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#48#80#0#PHP" expanded="true" />
-            <element signature="e#132#348#0#PHP" expanded="true" />
-            <element signature="e#252#346#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHall/ViewAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#53#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#320#659#0#PHP" expanded="true" />
-            <element signature="e#414#516#0#PHP" expanded="true" />
-            <element signature="e#559#657#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/OptionsAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#139#336#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/queries/CinemaHallQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="e#128#355#0#PHP" expanded="true" />
-            <element signature="e#242#353#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/queries/CinemaHallRowsQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#136#375#0#PHP" expanded="true" />
-            <element signature="e#258#373#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/queries/FilmsQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#64#0#PHP" expanded="true" />
-            <element signature="e#203#411#0#PHP" expanded="true" />
-            <element signature="e#477#583#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallRowsController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Step/Assertion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#198#1307#0#PHP" expanded="true" />
-            <element signature="e#290#847#0#PHP" expanded="true" />
-            <element signature="e#888#1129#0#PHP" expanded="true" />
-            <element signature="e#1170#1305#0#PHP" expanded="true" />
-          </folding>
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CinemaHallController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Scenario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#46#98#0#PHP" expanded="true" />
-            <element signature="e#876#1117#0#PHP" expanded="true" />
-            <element signature="e#1158#1293#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/CinemaHallRows.php">
+    <entry file="file://$PROJECT_DIR$/api/tests/_support/_generated/ApiTesterActions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#51#414#0#PHP" expanded="true" />
-            <element signature="e#153#263#0#PHP" expanded="true" />
-            <element signature="e#306#412#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="1215" column="40" lean-forward="true" selection-start-line="1215" selection-start-column="40" selection-end-line="1215" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/cinemaHallRows/ViewAction.php">
+    <entry file="file://$PROJECT_DIR$/api/tests/api.suite.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#57#98#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/CinemaHallRows.php">
+    <entry file="file://$PROJECT_DIR$/api/tests/_data/token.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding>
-            <element signature="e#33#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/Booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-            <element signature="e#765#837#0#PHP" expanded="true" />
-            <element signature="e#878#983#0#PHP" expanded="true" />
-            <element signature="e#2030#2504#0#PHP" expanded="true" />
-            <element signature="e#2561#2687#0#PHP" expanded="true" />
-            <element signature="e#2744#2881#0#PHP" expanded="true" />
-            <element signature="e#2938#3078#0#PHP" expanded="true" />
-            <element signature="e#3135#3242#0#PHP" expanded="true" />
-            <element signature="e#3292#3386#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/models/Booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#51#100#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="930">
+          <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/FUNDING.yml">
+    <entry file="file://$PROJECT_DIR$/api/tests/api/AuthCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#32#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/fixtures/UserFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#63#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests/_data/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1112,61 +1084,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/CreateAction.php">
+    <entry file="file://$PROJECT_DIR$/backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#50#84#0#PHP" expanded="true" />
-            <element signature="e#483#2529#0#PHP" expanded="true" />
-            <element signature="e#2602#3737#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/queries/BookingQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-            <element signature="e#209#491#0#PHP" expanded="true" />
-            <element signature="e#534#666#0#PHP" expanded="true" />
-            <element signature="e#709#843#0#PHP" expanded="true" />
-            <element signature="e#911#1019#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/actions/booking/BuyAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#50#84#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

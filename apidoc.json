@@ -1,0 +1,7 @@
+{
+  "name": "Cinema API",
+  "version": "1.0.0",
+  "description": "Cinema API",
+  "title": "Custom apiDoc browser title",
+  "url" : "http://api.kino.loc/v1"
+}

@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'cebe\\gravatar\\' => array($vendorDir . '/cebe/yii2-gravatar'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
+    'Flow\\JSONPath\\Test' => array($vendorDir . '/flow/jsonpath/tests'),
+    'Flow\\JSONPath' => array($vendorDir . '/flow/jsonpath/src'),
     'Diff' => array($vendorDir . '/phpspec/php-diff/lib'),
     'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
 );

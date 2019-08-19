@@ -10,6 +10,9 @@ use common\models\Token;
 class LoginForm extends \common\models\LoginForm
 {
 
+    /**
+     * @return Token|mixed|null
+     */
     public function auth()
     {
         if($this->validate()) {

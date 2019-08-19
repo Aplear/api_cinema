@@ -108,7 +108,7 @@ Use it in Helpers when you want to retrieve response of request performed by ano
 // in Helper class
 public function seeResponseContains($text)
 {
-   $this->assertContains($text, $this->getModule('Phalcon')->_getResponseContent(), "response contains");
+   $this->assertStringContainsString($text, $this->getModule('Phalcon')->_getResponseContent(), "response contains");
 }
 ?>
 ```
@@ -707,17 +707,6 @@ Recommended to use for unit testing.
  * `[Part]` services
 
 
-### grabServiceFromDi
- 
-Alias for `grabServiceFromContainer`.
-
-Note: Deprecated. Will be removed in Codeception 2.3.
-
- * `param string` $service    Service name
- * `param array`  $parameters Parameters [Optional]
- * `[Part]` services
-
-
 ### grabTextFrom
  
 Finds and returns the text contents of the given element.
@@ -796,17 +785,20 @@ $I->haveRecord('App\Models\Categories', ['name' => 'Testing']');
  * `[Part]` orm
 
 
-### haveServiceInDi
+### makeHtmlSnapshot
  
-Alias for `addServiceToContainer`.
+Saves current page's HTML into a temprary file.
+Use this method in debug mode within an interactive pause to get a source code of current page.
 
-Note: Deprecated. Will be removed in Codeception 2.3.
+```php
+<?php
+$I->makePageSnapshot('edit_page');
+// saved to: tests/_output/debug/edit_page.html
+$I->makePageSnapshot();
+// saved to: tests/_output/debug/2017-05-26_14-24-11_4b3403665fea6.html
+```
 
- * `param string` $name
- * `param mixed` $definition
- * `param boolean` $shared
- * `return` mixed|null
- * `[Part]` services
+ * `param null` $name
 
 
 ### moveBack
@@ -1523,4 +1515,4 @@ $I->uncheckOption('#notify');
 
  * `param` $option
 
-<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/2.5/src/Codeception/Module/Phalcon.php">Help us to improve documentation. Edit module reference</a></div>
+<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/3.0/src/Codeception/Module/Phalcon.php">Help us to improve documentation. Edit module reference</a></div>

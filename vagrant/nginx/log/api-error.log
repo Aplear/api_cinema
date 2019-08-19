@@ -194,3 +194,11 @@ Stack trace:
 #7 /app/api/web/index.php(17): yii\base\Application->__construct(Array)
 #8 {main}
   thrown in /app/vendor/yiisoft/yii2/di/Container.php on line 373" while reading response header from upstream, client: 192.168.83.1, server: api.kino.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "api.kino.loc"
+2019/08/18 16:51:43 [error] 1896#1896: *29 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException: Hoa needs at least PHP 7.1 to work; you have 7.0.33-0ubuntu0.16.04.6. in /app/vendor/hoa/consistency/Source/Prelude.php:44
+Stack trace:
+#0 /app/vendor/composer/autoload_real.php(66): require()
+#1 /app/vendor/composer/autoload_real.php(56): composerRequireecb61d2ca3dded77d152e004bc117a27('721ab056c755b8b...', '/app/vendor/com...')
+#2 /app/vendor/autoload.php(7): ComposerAutoloaderInitecb61d2ca3dded77d152e004bc117a27::getLoader()
+#3 /app/api/web/index.php(5): require('/app/vendor/aut...')
+#4 {main}
+  thrown in /app/vendor/hoa/consistency/Source/Prelude.php on line 44" while reading response header from upstream, client: 192.168.83.1, server: api.kino.loc, request: "GET /api/v1login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "api.kino.loc"

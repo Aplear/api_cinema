@@ -84,7 +84,7 @@ Use it in Helpers when you want to retrieve response of request performed by ano
 // in Helper class
 public function seeResponseContains($text)
 {
-   $this->assertContains($text, $this->getModule('ZF2')->_getResponseContent(), "response contains");
+   $this->assertStringContainsString($text, $this->getModule('ZF2')->_getResponseContent(), "response contains");
 }
 ?>
 ```
@@ -690,6 +690,22 @@ $I->haveHttpHeader('Client&#95;Id', 'Codeception');
  * `param string` $name the name of the request header
  * `param string` $value the value to set it to for subsequent
        requests
+
+
+### makeHtmlSnapshot
+ 
+Saves current page's HTML into a temprary file.
+Use this method in debug mode within an interactive pause to get a source code of current page.
+
+```php
+<?php
+$I->makePageSnapshot('edit_page');
+// saved to: tests/_output/debug/edit_page.html
+$I->makePageSnapshot();
+// saved to: tests/_output/debug/2017-05-26_14-24-11_4b3403665fea6.html
+```
+
+ * `param null` $name
 
 
 ### moveBack
@@ -1363,4 +1379,4 @@ $I->uncheckOption('#notify');
 
  * `param` $option
 
-<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/2.5/src/Codeception/Module/ZF2.php">Help us to improve documentation. Edit module reference</a></div>
+<p>&nbsp;</p><div class="alert alert-warning">Module reference is taken from the source code. <a href="https://github.com/Codeception/Codeception/tree/3.0/src/Codeception/Module/ZF2.php">Help us to improve documentation. Edit module reference</a></div>
